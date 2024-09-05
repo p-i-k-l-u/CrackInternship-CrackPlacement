@@ -1,7 +1,5 @@
 package TCS_NQT;
 
-import java.util.*;
-
 class TreeNode {
     int val;
     TreeNode left;

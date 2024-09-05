@@ -1,4 +1,3 @@
-import java.util.*;
 
 // Node class represents a node in a linked list
 class Node {
@@ -76,7 +75,8 @@ public class KReverse {
                 prevGroupEnd.next = reversedGroupHead;
             }
 
-            // Update prevGroupEnd to the start of this group (which is now the end after reversal)
+            // Update prevGroupEnd to the start of this group (which is now the end after
+            // reversal)
             prevGroupEnd = groupStart;
 
             // Move to the next group
